@@ -13,7 +13,7 @@ const Home = () => {
           Hafsah, <span>Here!</span>
         </Intro>
         <Title>
-          Connect <Highlight>User-Centric </Highlight>Designs For Your
+        Coding <Highlight>User-Centric </Highlight>Designs For Your
           <Highlight> Website</Highlight>
         </Title>
         {/* <Title>
@@ -21,11 +21,12 @@ const Home = () => {
     Shine on the <Highlight>Web</Highlight>
   </Title> */}
         <Intro2>
-          Coding + Develop With Me = One-Stop Solution for your Website
+          Connect + Develop With Me = One-Stop Solution for your Website
           {/* <span> One-Stop Solution for your Website </span> */}
         </Intro2>
         <Subtitle>
           I brainstorm, plan, and
+          
           transform your complex business ideas into engaging websites to guide
           your audience through each step and bring you the growth you deserve.
           {/* Your website should do more than exist - it should inspire trust, capture
