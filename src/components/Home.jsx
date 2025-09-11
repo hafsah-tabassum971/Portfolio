@@ -158,7 +158,7 @@ const Title = styled.h1`
 
   @media (max-width: 480px) {
     font-size: 2.2rem;
-    text-align: left;
+    text-align: center;
   }
 `;
 
@@ -185,7 +185,7 @@ const Subtitle = styled.p`
     font-size: 0.95rem;
     line-height: 1.5;
     margin-bottom: 2rem;
-    text-align: left;
+    text-align: center;
   }
 `;
 

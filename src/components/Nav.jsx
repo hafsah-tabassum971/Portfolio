@@ -81,6 +81,13 @@ const Logo = styled.a`
   color: #610D0D;
   text-decoration: none;
   letter-spacing: 1px;
+  @media (max-width: 768px) {
+    font-size: 1.6rem; /* smaller tablets */
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.3rem; /* small phones */
+  }
 `;
 
 const NavLinks = styled.div`

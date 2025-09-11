@@ -153,7 +153,7 @@ const FormSection = styled.div`
 
   input,
   textarea {
-    width: 100%;
+    width: auto;
     padding: 15px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
