@@ -82,11 +82,11 @@ const Logo = styled.a`
   text-decoration: none;
   letter-spacing: 1px;
   @media (max-width: 768px) {
-    font-size: 1.6rem; /* smaller tablets */
+    font-size: 1.7rem; /* smaller tablets */
   }
 
   @media (max-width: 480px) {
-    font-size: 1.3rem; /* small phones */
+    font-size: 1.5rem; /* small phones */
   }
 `;
 
@@ -167,7 +167,7 @@ const MobileMenu = styled.div`
 `;
 
 const MobileNavLink = styled(NavLink)`
-  font-size: 1.5rem; /* bigger text for mobile */
+  font-size: 1.4rem; /* bigger text for mobile */
   text-align: center;
   width: 100%;
   padding: 0.5rem 0;
