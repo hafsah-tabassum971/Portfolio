@@ -246,7 +246,7 @@ const Contact = () => {
 
         {/* Form Section */}
         <FormSection>
-          <h2>Send Us a Message</h2>
+          <h2>Send Me a Message</h2>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input type="text" name="from_name" placeholder="Your Name" required />
             <input type="email" name="from_email" placeholder="Your Email" required />
