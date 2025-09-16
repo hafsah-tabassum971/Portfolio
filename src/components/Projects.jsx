@@ -146,7 +146,9 @@ const CardImageWrapper = styled.div`
   }
 `;
 
-const CardImage = styled.img`
+const CardImage = styled.img.attrs(() => ({
+  loading: "lazy",  // ✅ lazy load
+}))`
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
