@@ -167,7 +167,7 @@ const MobileMenu = styled.div`
 `;
 
 const MobileNavLink = styled(NavLink)`
-  font-size: 1.4rem; /* bigger text for mobile */
+  font-size: 1.2rem; /* bigger text for mobile */
   text-align: center;
   width: 100%;
   padding: 0.5rem 0;
