@@ -80,7 +80,7 @@ const Logo = styled.a`
   font-weight: bold;
   color: #610D0D;
   text-decoration: none;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
   @media (max-width: 768px) {
     font-size: 1.7rem; /* smaller tablets */
   }

@@ -144,24 +144,13 @@ const Intro2 = styled.p`
 `;
 
 const Title = styled.h1`
-  font-size: 4.5rem; /* More bold impact */
+  /* clamp(MIN, PREFERRED, MAX) */
+  font-size: clamp(2rem, 6vw, 4.5rem);
   font-weight: 900;
   margin-bottom: 1.5rem;
   line-height: 1.2;
-
-  @media (max-width: 1024px) {
-    font-size: 3.5rem;
-  }
-
-  @media (max-width: 768px) {
-    font-size: 2.7rem;
-  }
-
-  @media (max-width: 480px) {
-    font-size: 2.2rem;
-    text-align: center;
-  }
 `;
+
 
 const Highlight = styled.span`
   color: #610d0d;
