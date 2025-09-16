@@ -37,7 +37,7 @@ const Projects = () => {
     <ProjectsSection id="projects">
       
       <Heading>
-       <Highlight> My  Projects</Highlight>
+       <Highlight> Featured  Projects</Highlight>
       </Heading>
 
       <ProjectGrid>
